@@ -3,6 +3,7 @@
 The interpreter has different commands:
 
 * `reverse <string>` : 
+
 reverses the letters in the provided string
 
 * `count-words <string>` : 
