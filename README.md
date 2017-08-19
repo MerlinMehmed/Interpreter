@@ -2,23 +2,23 @@
 
 The interpreter has different commands:
 
-reverse <string>
+reverse <string> : 
 reverses the letters in the provided string
 
-count-words <string>
+count-words <string> : 
 counts the number of words in the provided string
 
-reverse-words <string>
+reverse-words <string> : 
 reverses the order of the words in the provided string
 
-get <variable>
+get <variable> : 
 obtains the value of the given variable name and prints it out in the format:
 	[<type>] <value>
 
-set <variable> <type> <value>
+set <variable> <type> <value> : 
 creates a new variable of the given type and value
 
-calc <variable1> <variable2> <operation> <variable3>
+calc <variable1> <variable2> <operation> <variable3> : 
 performs operation between variable2 and variable3 and stores the result in variable1
 
 Supported operations are the follwing:
@@ -34,8 +34,8 @@ Supported operations are the follwing:
 		+ <number> - adds a <number> of days
 		- <number> - subtracts a <number> of days
 
-load <file_name>
+load <file_name> : 
 loads variables from file
 
-save <file_name>
+save <file_name> : 
 saves variables into a file
