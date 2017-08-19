@@ -27,7 +27,7 @@ saves variables into a file
 * `calc <variable1> <variable2> <operation> <variable3>` : 
 performs operation between variable2 and variable3 and stores the result in variable1
 
-Supported operations are the follwing: <br/>
+**Supported operations are the follwing: <br/>
 	`<string>` <br/>
 		+ `<string>` - concatenates the two strings <br/>
 		+ `<number>` - adds the number as string to the end <br/>
